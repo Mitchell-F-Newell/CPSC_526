@@ -1,0 +1,2 @@
+A simple program that generates a valid secondary preimage based on users input for a defined 
+(non-preimage resistant) hash function.

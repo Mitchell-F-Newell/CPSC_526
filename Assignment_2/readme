@@ -1,0 +1,16 @@
+Enroll is a simple program that takes in a username and password and does a few things:
+
+1) Ensures that the username does not already exist in the .txt userprofile file.
+
+2) ensures that the password is secure and not just a number, or a dictionary
+word, or a number followed by a dictionary word, or a dictionary word followed by a number
+(i.e., [word], [num], [wordnum], and [numword] all forbidden).
+
+2) Uses the Argon2 hashing algorithm and a salt to hash the password securely.
+
+3) Adds the user profile (username and hashed password) to the DB (In this case jsut a simple .txt file)
+
+
+Authenticate is a simple program that takes in a username and password and does two things:
+1) Attempts to find the associated username  in the .txt userprofile file.
+2) Hashes the input user password (Using the salt associated with the input username) and checks that the passwords match

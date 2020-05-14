@@ -1,0 +1,7 @@
+Various TCP injection attacks that manipulate the simple client server program in which the 
+client and server send TCP packets to eachother.
+
+The three TCP injection attacks implemented are:
+1) Fake SYN attack
+2) TCP Reset attack
+3) TCP Injection attack
